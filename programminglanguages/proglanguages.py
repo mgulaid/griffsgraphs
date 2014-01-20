@@ -109,8 +109,6 @@ for person in personlistunique:
     for item in influencedpeople:
         if item != person:
             strwrite = strwrite + '"' +item +'"'  ','
-        else:
-            pass
 
     if len(strwrite)>0:
         print person + "," + strwrite
